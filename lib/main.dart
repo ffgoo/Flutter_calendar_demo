@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
+
+import 'pages/basics_example.dart';
+import 'pages/complex_example.dart';
+import 'pages/events_example.dart';
+
+
 void main() {
   runApp(MyApp());
 }
