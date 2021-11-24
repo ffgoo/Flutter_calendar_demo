@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 
 class StartPage extends StatefulWidget{
   @override
-  _StartPageState createState() => _StartPageState()
+  _StartPageState createState() => _StartPageState();
 }
 
 class _StartPageState extends State<StartPage>{
@@ -45,38 +45,38 @@ class _StartPageState extends State<StartPage>{
               child: Text('Basics'),
               onPressed: () => Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (_) => TableBasicsExample()),
+                  MaterialPageRoute(builder: (_) => TableBasicExample()),
                 ),
             ),
-            const SizedBox(height : 12.0),
-            ElevatedButton(
-              child: Text('Range Selection'),
-              onPressed: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => TableRangeExample())),
-            ),
-            const SizedBox(height : 12.0),
-            ElevatedButton(
-              child: Text('Events'),
-              onPressed: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => TableEventExample())),
-            ),
-            const SizedBox(height : 12.0),
-            ElevatedButton(
-              child: Text('Multiple Selection'),
-              onPressed: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => TableComplexExample())),
-            ),
-            const SizedBox(height : 12.0),
-            ElevatedButton(
-              child: Text('Complex'),
-              onPressed: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => TableRangeExample())),
-            ),
+            // const SizedBox(height : 12.0),
+            // ElevatedButton(
+            //   child: Text('Range Selection'),
+            //   onPressed: () => Navigator.push(context,
+            //       MaterialPageRoute(builder: (_) => TableRangeExample())),
+            // ),
+            // const SizedBox(height : 12.0),
+            // ElevatedButton(
+            //   child: Text('Events'),
+            //   onPressed: () => Navigator.push(context,
+            //       MaterialPageRoute(builder: (_) => TableEventExample())),
+            // ),
+            // const SizedBox(height : 12.0),
+            // ElevatedButton(
+            //   child: Text('Multiple Selection'),
+            //   onPressed: () => Navigator.push(context,
+            //       MaterialPageRoute(builder: (_) => TableComplexExample())),
+            // ),
+            // const SizedBox(height : 12.0),
+            // ElevatedButton(
+            //   child: Text('Complex'),
+            //   onPressed: () => Navigator.push(context,
+            //       MaterialPageRoute(builder: (_) => TableRangeExample())),
+            // ),
             const SizedBox(height : 20.0),
           ],
         ),
       ),
-    )
+    );
   }
 }
 
