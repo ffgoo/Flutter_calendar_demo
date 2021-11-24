@@ -48,7 +48,7 @@ class _StartPageState extends State<StartPage>{
                   MaterialPageRoute(builder: (_) => TableBasicExample()),
                 ),
             ),
-            // const SizedBox(height : 12.0),
+            const SizedBox(height : 12.0),
             // ElevatedButton(
             //   child: Text('Range Selection'),
             //   onPressed: () => Navigator.push(context,
@@ -60,12 +60,12 @@ class _StartPageState extends State<StartPage>{
             //   onPressed: () => Navigator.push(context,
             //       MaterialPageRoute(builder: (_) => TableEventExample())),
             // ),
-            // const SizedBox(height : 12.0),
-            // ElevatedButton(
-            //   child: Text('Multiple Selection'),
-            //   onPressed: () => Navigator.push(context,
-            //       MaterialPageRoute(builder: (_) => TableComplexExample())),
-            // ),
+            const SizedBox(height : 12.0),
+            ElevatedButton(
+              child: Text('Multiple Selection'),
+              onPressed: () => Navigator.push(context,
+                  MaterialPageRoute(builder: (_) => TableComplexExample())),
+            ),
             // const SizedBox(height : 12.0),
             // ElevatedButton(
             //   child: Text('Complex'),
